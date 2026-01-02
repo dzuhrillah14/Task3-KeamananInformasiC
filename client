@@ -32,7 +32,7 @@ def client():
     print("[*] Kunci DES Terenkripsi telah dikirim.")
     print("\n--- SALURAN KOMUNIKASI AMAN DIMULAI ---")
 
-    # 2. PROSES CHAT DES (Sesuai Tugas 2 Anda)
+    # 2. PROSES CHAT DES 
     while True:
         user_input = input("\nMasukkan pesan untuk dikirim (8 char): ")
         original_text = user_input.ljust(8)[:8]
